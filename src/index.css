@@ -46,7 +46,7 @@
 
 @layer components {
   .pattern {
-    @apply bg-hero-pattern w-full h-screen bg-center bg-cover absolute z-0;
+    @apply bg-hero-pattern w-full h-[1600px] bg-center bg-cover absolute z-0;
   }
 
   .wrapper {
@@ -117,8 +117,9 @@
     }
 
     & .rating img {
-      @apply size-4 object-contain;
+      @apply w-4 h-4 object-contain;
     }
+
 
     & .rating p {
       @apply font-bold text-base text-white;
